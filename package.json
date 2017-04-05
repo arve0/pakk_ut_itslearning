@@ -1,0 +1,36 @@
+{
+  "name": "pakk_ut_itslearning",
+  "version": "1.0.0",
+  "description": "Pakk ut innleveringsoppgaver fra itslearning",
+  "main": "main.js",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-builder": "^16.6.1"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/build",
+    "start": "./node_modules/.bin/electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arve0/pakk_ut_itslearning.git"
+  },
+  "keywords": [
+    "zip",
+    "itslearning"
+  ],
+  "author": "Arve Seljebu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arve0/pakk_ut_itslearning/issues"
+  },
+  "homepage": "https://github.com/arve0/pakk_ut_itslearning#readme"
+}
